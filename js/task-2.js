@@ -1,6 +1,6 @@
 function formatMessage(message, maxLength) {
     if (message.length > maxLength) {
-       return `${message}...`
+       return `${message.substring(0, maxLength)}...`
     }else {
        return `${message}`
     }
